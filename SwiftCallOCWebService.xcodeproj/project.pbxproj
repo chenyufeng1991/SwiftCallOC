@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7108E1D61B7477BF00993943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108E1D51B7477BF00993943 /* AppDelegate.swift */; };
+		7108E1D81B7477BF00993943 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108E1D71B7477BF00993943 /* ViewController.swift */; };
+		7108E1DB1B7477BF00993943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7108E1D91B7477BF00993943 /* Main.storyboard */; };
+		7108E1DD1B7477BF00993943 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7108E1DC1B7477BF00993943 /* Images.xcassets */; };
+		7108E1E01B7477BF00993943 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7108E1DE1B7477BF00993943 /* LaunchScreen.xib */; };
+		7108E1EC1B7477BF00993943 /* SwiftCallOCWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108E1EB1B7477BF00993943 /* SwiftCallOCWebServiceTests.swift */; };
+		7108E1F81B74786900993943 /* OCWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108E1F71B74786900993943 /* OCWebService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7108E1E61B7477BF00993943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7108E1C81B7477BF00993943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7108E1CF1B7477BF00993943;
+			remoteInfo = SwiftCallOCWebService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7108E1D01B7477BF00993943 /* SwiftCallOCWebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCallOCWebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7108E1D41B7477BF00993943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7108E1D51B7477BF00993943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7108E1D71B7477BF00993943 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7108E1DA1B7477BF00993943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7108E1DC1B7477BF00993943 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7108E1DF1B7477BF00993943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7108E1E51B7477BF00993943 /* SwiftCallOCWebServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCallOCWebServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7108E1EA1B7477BF00993943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7108E1EB1B7477BF00993943 /* SwiftCallOCWebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCallOCWebServiceTests.swift; sourceTree = "<group>"; };
+		7108E1F51B74786800993943 /* SwiftCallOCWebService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftCallOCWebService-Bridging-Header.h"; sourceTree = "<group>"; };
+		7108E1F61B74786900993943 /* OCWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCWebService.h; sourceTree = "<group>"; };
+		7108E1F71B74786900993943 /* OCWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCWebService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7108E1CD1B7477BF00993943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7108E1E21B7477BF00993943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7108E1C71B7477BF00993943 = {
+			isa = PBXGroup;
+			children = (
+				7108E1D21B7477BF00993943 /* SwiftCallOCWebService */,
+				7108E1E81B7477BF00993943 /* SwiftCallOCWebServiceTests */,
+				7108E1D11B7477BF00993943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7108E1D11B7477BF00993943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7108E1D01B7477BF00993943 /* SwiftCallOCWebService.app */,
+				7108E1E51B7477BF00993943 /* SwiftCallOCWebServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7108E1D21B7477BF00993943 /* SwiftCallOCWebService */ = {
+			isa = PBXGroup;
+			children = (
+				7108E1D51B7477BF00993943 /* AppDelegate.swift */,
+				7108E1D71B7477BF00993943 /* ViewController.swift */,
+				7108E1D91B7477BF00993943 /* Main.storyboard */,
+				7108E1DC1B7477BF00993943 /* Images.xcassets */,
+				7108E1DE1B7477BF00993943 /* LaunchScreen.xib */,
+				7108E1D31B7477BF00993943 /* Supporting Files */,
+				7108E1F61B74786900993943 /* OCWebService.h */,
+				7108E1F71B74786900993943 /* OCWebService.m */,
+				7108E1F51B74786800993943 /* SwiftCallOCWebService-Bridging-Header.h */,
+			);
+			path = SwiftCallOCWebService;
+			sourceTree = "<group>";
+		};
+		7108E1D31B7477BF00993943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7108E1D41B7477BF00993943 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7108E1E81B7477BF00993943 /* SwiftCallOCWebServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				7108E1EB1B7477BF00993943 /* SwiftCallOCWebServiceTests.swift */,
+				7108E1E91B7477BF00993943 /* Supporting Files */,
+			);
+			path = SwiftCallOCWebServiceTests;
+			sourceTree = "<group>";
+		};
+		7108E1E91B7477BF00993943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7108E1EA1B7477BF00993943 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7108E1CF1B7477BF00993943 /* SwiftCallOCWebService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7108E1EF1B7477BF00993943 /* Build configuration list for PBXNativeTarget "SwiftCallOCWebService" */;
+			buildPhases = (
+				7108E1CC1B7477BF00993943 /* Sources */,
+				7108E1CD1B7477BF00993943 /* Frameworks */,
+				7108E1CE1B7477BF00993943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCallOCWebService;
+			productName = SwiftCallOCWebService;
+			productReference = 7108E1D01B7477BF00993943 /* SwiftCallOCWebService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7108E1E41B7477BF00993943 /* SwiftCallOCWebServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7108E1F21B7477BF00993943 /* Build configuration list for PBXNativeTarget "SwiftCallOCWebServiceTests" */;
+			buildPhases = (
+				7108E1E11B7477BF00993943 /* Sources */,
+				7108E1E21B7477BF00993943 /* Frameworks */,
+				7108E1E31B7477BF00993943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7108E1E71B7477BF00993943 /* PBXTargetDependency */,
+			);
+			name = SwiftCallOCWebServiceTests;
+			productName = SwiftCallOCWebServiceTests;
+			productReference = 7108E1E51B7477BF00993943 /* SwiftCallOCWebServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7108E1C81B7477BF00993943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					7108E1CF1B7477BF00993943 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7108E1E41B7477BF00993943 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7108E1CF1B7477BF00993943;
+					};
+				};
+			};
+			buildConfigurationList = 7108E1CB1B7477BF00993943 /* Build configuration list for PBXProject "SwiftCallOCWebService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7108E1C71B7477BF00993943;
+			productRefGroup = 7108E1D11B7477BF00993943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7108E1CF1B7477BF00993943 /* SwiftCallOCWebService */,
+				7108E1E41B7477BF00993943 /* SwiftCallOCWebServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7108E1CE1B7477BF00993943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7108E1DB1B7477BF00993943 /* Main.storyboard in Resources */,
+				7108E1E01B7477BF00993943 /* LaunchScreen.xib in Resources */,
+				7108E1DD1B7477BF00993943 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7108E1E31B7477BF00993943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7108E1CC1B7477BF00993943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7108E1F81B74786900993943 /* OCWebService.m in Sources */,
+				7108E1D81B7477BF00993943 /* ViewController.swift in Sources */,
+				7108E1D61B7477BF00993943 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7108E1E11B7477BF00993943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7108E1EC1B7477BF00993943 /* SwiftCallOCWebServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7108E1E71B7477BF00993943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7108E1CF1B7477BF00993943 /* SwiftCallOCWebService */;
+			targetProxy = 7108E1E61B7477BF00993943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7108E1D91B7477BF00993943 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7108E1DA1B7477BF00993943 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7108E1DE1B7477BF00993943 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7108E1DF1B7477BF00993943 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7108E1ED1B7477BF00993943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7108E1EE1B7477BF00993943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7108E1F01B7477BF00993943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SwiftCallOCWebService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCallOCWebService/SwiftCallOCWebService-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7108E1F11B7477BF00993943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SwiftCallOCWebService/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCallOCWebService/SwiftCallOCWebService-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7108E1F31B7477BF00993943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftCallOCWebServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCallOCWebService.app/SwiftCallOCWebService";
+			};
+			name = Debug;
+		};
+		7108E1F41B7477BF00993943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftCallOCWebServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCallOCWebService.app/SwiftCallOCWebService";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7108E1CB1B7477BF00993943 /* Build configuration list for PBXProject "SwiftCallOCWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7108E1ED1B7477BF00993943 /* Debug */,
+				7108E1EE1B7477BF00993943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7108E1EF1B7477BF00993943 /* Build configuration list for PBXNativeTarget "SwiftCallOCWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7108E1F01B7477BF00993943 /* Debug */,
+				7108E1F11B7477BF00993943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7108E1F21B7477BF00993943 /* Build configuration list for PBXNativeTarget "SwiftCallOCWebServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7108E1F31B7477BF00993943 /* Debug */,
+				7108E1F41B7477BF00993943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7108E1C81B7477BF00993943 /* Project object */;
+}
